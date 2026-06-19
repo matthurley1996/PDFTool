@@ -40,7 +40,7 @@ datas += collect_data_files("ocrmypdf")
 datas += collect_data_files("pdf2docx")
 
 a = Analysis(
-    ["pdftool/__main__.py"],
+    ["run.py"],
     pathex=["."],
     binaries=binaries,
     datas=datas,
